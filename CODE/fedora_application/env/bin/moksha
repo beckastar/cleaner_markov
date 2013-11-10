@@ -1,0 +1,9 @@
+#!/Users/becka/Documents/CODE/fedora_application/env/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'moksha.common==1.2.1','console_scripts','moksha'
+__requires__ = 'moksha.common==1.2.1'
+import sys
+from pkg_resources import load_entry_point
+
+sys.exit(
+   load_entry_point('moksha.common==1.2.1', 'console_scripts', 'moksha')()
+)

@@ -1,0 +1,9 @@
+#!/Users/becka/Documents/CODE/fedora_application/env/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'fedmsg==0.7.1','console_scripts','fedmsg-announce'
+__requires__ = 'fedmsg==0.7.1'
+import sys
+from pkg_resources import load_entry_point
+
+sys.exit(
+   load_entry_point('fedmsg==0.7.1', 'console_scripts', 'fedmsg-announce')()
+)

@@ -1,0 +1,4 @@
+#!/Users/becka/Documents/CODE/fedora_application/env/bin/python
+
+import fedmsg.commands.config
+fedmsg.commands.config.config()
